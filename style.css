@@ -116,7 +116,7 @@ a{
 
 /* change column count */
 .container .image-container{
-  columns:4 250px;
+  columns:2 250px;
   gap:15px;
   height: auto;
 }
@@ -130,8 +130,27 @@ a{
 .container .image-container video{
   margin-bottom: 10px;
   border-radius: 5px;
+  width: 50%;
+}
+
+.container .image-container2{
+  columns:3 250px;
+  gap:15px;
+  height: auto;
+}
+
+.container .image-container2 img{
+  margin-bottom: 10px;
+  border-radius: 4px;
   width: 100%;
 }
+
+.container .image-container2 video{
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 60%;
+}
+
 
 /* resize sketchfab embed, need to create separate class */
 .container .image-container iframe{
