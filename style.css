@@ -126,15 +126,15 @@ a{
   border-radius: 4px;
   width: 100%;
 }
-
+/* 
 .container .image-container video{
   margin-bottom: 10px;
   border-radius: 5px;
   width: 50%;
-}
+} */
 
 .container .image-container2{
-  columns:3 250px;
+  columns:4 250px;
   gap:15px;
   height: auto;
 }
@@ -148,16 +148,19 @@ a{
 .container .image-container2 video{
   margin-bottom: 10px;
   border-radius: 5px;
-  width: 60%;
+  width: 100%;
 }
 
+.container .image-container3{
+  columns:2 250px;
+  gap:15px;
+  height: auto;
+}
 
-/* resize sketchfab embed, need to create separate class */
-.container .image-container iframe{
-  width: 100%;
-  height: 20rem;
+.container .image-container3 video{
+  margin-bottom: 10px;
   border-radius: 5px;
-  object-fit: cover;
+  width: 100%;
 }
 
 
@@ -204,10 +207,6 @@ a{
   }
 
 }
-
-
-
-
 
 
 .about{
