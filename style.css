@@ -127,6 +127,7 @@ a{
   columns:2 250px;
   gap:15px;
   height: auto;
+  width: 90%;
 }
 
 .container .image-container img{
@@ -142,9 +143,10 @@ a{
 } */
 
 .container .image-container2{
-  columns:4 250px;
+  columns:3 250px;
   gap:15px;
   height: auto;
+  width: 90%;
 }
 
 .container .image-container2 img{
@@ -159,16 +161,23 @@ a{
   width: 100%;
 }
 
-.container .image-container3{
-  columns:2 250px;
+
+
+.container .image-container4{
+  columns:1 250px;
   gap:15px;
   height: auto;
+  width: 90%;
+ 
 }
 
-.container .image-container3 video{
+.container .image-container4 video{
   margin-bottom: 10px;
-  border-radius: 5px;
+  border-radius: 4px;
+  max-width: fit-content;
   width: 100%;
+
+  
 }
 
 
@@ -216,12 +225,15 @@ a{
 
 }
 
+
 .about{
   display: block;
   
   margin-top: 5rem;
   padding-bottom: 3em;
 }
+
+
 
 h2{
   font-size: 1.5em;
