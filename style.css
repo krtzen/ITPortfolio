@@ -161,7 +161,19 @@ a{
   width: 100%;
 }
 
+.container .image-container3{
+  columns:2 150px;
+  gap:15px;
+  height: auto;
+  width: 90%;
+ 
+}
 
+.container .image-container3 img{
+  margin-bottom: 10px;
+  border-radius: 4px;
+  width: 100%;
+}
 
 .container .image-container4{
   columns:1 250px;
@@ -171,11 +183,17 @@ a{
  
 }
 
+.container .image-container4 img{
+  margin-bottom: 10px;
+  border-radius: 4px;
+  width: 100%;
+}
+
 .container .image-container4 video{
   margin-bottom: 10px;
   border-radius: 4px;
   max-width: fit-content;
-  width: 100%;
+  width: 75%;
 
   
 }
